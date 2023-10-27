@@ -7,7 +7,7 @@ const program = new Command();
 const VERSION = "0.1.0";
 
 program
-  .name("generate-public-asset")
+  .name("generate-type-and-component-based-asset")
   .description("Generate typescript types and Next Image component using files in the /public directory")
   .version(VERSION, "-V, --version", "Print version");
 
