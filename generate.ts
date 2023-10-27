@@ -79,7 +79,7 @@ program
     "Directory output point",
     "./src/types",
   )
-  .option("-OFN, --outputFileName <name>", "Output file name", "asset.ts")
+  .option("-OFN, --outputFileName <name>", "Output file name", "asset")
   .option("-WC, --withComponent", "Output with component", false)
   .option(
     "-OCD, --outputComponentDir <path>",
@@ -109,7 +109,7 @@ const {
   withAlias,
 } = program.opts<Options>();
 
-const output = `${outputDir}/${outputFileName}`;
+const output = `${outputDir}/${outputFileName}.ts`;
 const componentOutput = `${outputComponentDir}/${outputComponentName}.tsx`;
 
 console.log(`Read : ${entryDir} contents`);

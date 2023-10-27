@@ -112,7 +112,7 @@ Options:
   -V, --version                       Print version
   -ED, --entryDir <path>              Directory entry point (default: "./public")
   -OD, --outputDir <path>             Directory output point (default: "./src/types")
-  -OFN, --outputFileName <name>       Output file name (default: "asset.ts")
+  -OFN, --outputFileName <name>       Output file name (default: "asset")
   -WC, --withComponent                Output with component (default: false)
   -OCD, --outputComponentDir <path>   Output component entry point (default: "./src/components")
   -OCN, --outputComponentName <name>  Output component name (default: "Image")
@@ -137,8 +137,8 @@ Options:
   ```
 - `-OFN, --outputFileName <name>` | 생성된 타입의 파일명.
   ```bash
-  $ yarn generate -OFN file.ts
-  $ yarn generate --outputDir file.ts
+  $ yarn generate -OFN file
+  $ yarn generate --outputDir file
   ```
 - `-WC, --withComponent` | 컴포넌트 생성여부.
   ```bash
