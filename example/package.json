@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "buildAsset": "ts-node scripts/generatePublicAsset.ts",
+    "generate": "ts-node scripts/generate.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
