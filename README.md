@@ -104,7 +104,7 @@ $ yarn generate
 -h, --help 로 모든 명령어를 확인할 수 있습니다.
 ```bash
 $ yarn generate -h
-> Usage: generate-public-asset [options]
+> Usage: generate-type-and-component-based-asset [options]
 
 Generate typescript types and Next Image component using files in the /public directory
 
