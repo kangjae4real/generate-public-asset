@@ -1,9 +1,9 @@
 ## Generate Type and Component based /public assets
 
-이 Script는 보통의 프로젝트에서 사용되는 Asset 디렉토리인 `/public` 디렉토리의 <br />
+이 [Script](https://github.com/kangjae4real/generate-type-and-component-based-asset/blob/master/generate.ts)는 보통의 프로젝트에서 사용되는 Asset 디렉토리인 `/public` 디렉토리의 <br />
 Resources를 읽어들여 TypeScripit 프로젝트에서 손쉽게 사용할 수 있게 합니다.
 
-이 Script는 CLI 환경에서 구동할 수 있습니다.
+이 [Script](https://github.com/kangjae4real/generate-type-and-component-based-asset/blob/master/generate.ts)는 CLI 환경에서 구동할 수 있습니다.
 
 **현재 Component Generate는 Next Image component만 지원합니다.**
 
