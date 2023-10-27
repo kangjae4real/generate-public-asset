@@ -1,0 +1,1 @@
+export type PublicAssets = "/favicon.ico" | "/next.svg" | "/vercel.svg";
